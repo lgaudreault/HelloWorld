@@ -13,7 +13,6 @@ func main() {
 
         // Modbus TCP
         client := modbus.TCPClient("10.54.52.180:502")
-        //client := modbus.TCPClient("localhost:502")
 
 
         results, err := client.ReadHoldingRegisters(35, 12)
