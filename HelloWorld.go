@@ -1,9 +1,5 @@
 package tools
 
-import (
-        "fmt"
-)
-
 //TT_lrc is a structure that implements a simple Longitudinal Redundancy Check.
 //It allows bytes to be added one at a time(AddByte) or it can process an entire array(AddBytes).
 //The Reset function can be used to reset the sum and start a new one.
