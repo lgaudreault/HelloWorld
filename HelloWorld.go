@@ -2,7 +2,6 @@ package tools
 
 import (
         "fmt"
-        "github.com/goburrow/modbus"
 )
 
 //TT_lrc is a structure that implements a simple Longitudinal Redundancy Check.
